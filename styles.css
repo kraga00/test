@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'BloggerSans';
+  src: url('./fonts/BloggerSans/BloggerSans.eot?#iefix') format('embedded-opentype'),  url('./fonts/BloggerSans/BloggerSans.woff') format('woff'), url('./fonts/BloggerSans/BloggerSans.ttf')  format('truetype'), url('./fonts/BloggerSans/BloggerSans.svg#./fonts/BloggerSans/BloggerSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BloggerSans-Medium';
+  src: url('./fonts/BloggerSans-Medium/BloggerSans-Medium.eot?#iefix') format('embedded-opentype'),  url('./fonts/BloggerSans-Medium/BloggerSans-Medium.woff') format('woff'), url('./fonts/BloggerSans-Medium/BloggerSans-Medium.ttf')  format('truetype'), url('./fonts/BloggerSans-Medium/BloggerSans-Medium.svg#BloggerSans-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BloggerSans-Bold';
+  src: url('./fonts/BloggerSans-Bold/BloggerSans-Bold.eot?#iefix') format('embedded-opentype'),  url('./fonts/BloggerSans-Bold/BloggerSans-Bold.woff') format('woff'), url('./fonts/BloggerSans-Bold/BloggerSans-Bold.ttf')  format('truetype'), url('./fonts/BloggerSans-Bold/BloggerSans-Bold.svg#BloggerSans-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: BloggerSans, 'sans-serif';
+  line-height: 1;
+}
+
+.layout {
+  position: relative;
+  width: 1024px;
+  height: 796px;
+  padding: 30px 25px 80px;
+  margin: 0 auto;
+}
+
+/*content*/
+.content {
+  position: relative;
+  height: 100%;
+}
+
+.content::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: '';
+  background: url("./img/bg-woman.png") center bottom no-repeat;
+}
+
+/**/
+.user-photo {
+  position: absolute;
+  top: 80px;
+  left: 158px;
+  width: 304px;
+  height: 304px;
+}
+
+.user-photo__name {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  transform: translateX(-50%);
+}
+
+.svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.svg--first-name {
+  top: -80px;
+}
+
+.svg--hashtag {
+  bottom: -35px;
+}
+
+.user-photo__text {
+  fill: #4c487c;
+  font-size: 24px;
+  font-family: BloggerSans-Medium, 'sans-serif';
+}
+
+.hashtag {
+  fill: #4c487c;
+  font-size: 22px;
+  font-family: BloggerSans, 'sans-serif';
+}
+
+.user-photo__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 19px solid #4c487c;
+  border-radius: 50%;
+  background: #888;
+}
+
+/**/
+.congrats {
+  position: absolute;
+  bottom: 330px;
+  left: 510px;
+  color: #4c487c;
+}
+
+.congrats__user {
+  font-size: 54px;
+  font-family: BloggerSans-Bold, 'sans-serif';
+  padding-bottom: 40px;
+  background: url("./img/curve.png") left bottom no-repeat;
+}
+
+.congratulation {
+  font-size: 24px;
+  font-family: BloggerSans, 'sans-serif';
+  margin-top: 30px;
+}
+
+.logo {
+  position: absolute;
+  left: 510px;
+  bottom: 290px;
+  width: 100px;
+  height: 12px;
+  background: url("./img/logo.svg") center no-repeat;
+  background-size: cover;
+}
+
