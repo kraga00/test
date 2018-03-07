@@ -1,20 +1,21 @@
 @font-face {
   font-family: 'BloggerSans';
-  src: url('./fonts/BloggerSans/BloggerSans.eot?#iefix') format('embedded-opentype'),  url('./fonts/BloggerSans/BloggerSans.woff') format('woff'), url('./fonts/BloggerSans/BloggerSans.ttf')  format('truetype'), url('./fonts/BloggerSans/BloggerSans.svg#./fonts/BloggerSans/BloggerSans') format('svg');
+  src: url('https://github.com/kraga00/test/raw/master/fonts/BloggerSans/BloggerSans.eot') format('embedded-opentype'),  url('https://github.com/kraga00/test/raw/master/fonts/BloggerSans/BloggerSans.woff') format('woff'), url('https://github.com/kraga00/test/raw/master/fonts/BloggerSans/BloggerSans.ttf')  format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'BloggerSans-Medium';
-  src: url('./fonts/BloggerSans-Medium/BloggerSans-Medium.eot?#iefix') format('embedded-opentype'),  url('./fonts/BloggerSans-Medium/BloggerSans-Medium.woff') format('woff'), url('./fonts/BloggerSans-Medium/BloggerSans-Medium.ttf')  format('truetype'), url('./fonts/BloggerSans-Medium/BloggerSans-Medium.svg#BloggerSans-Medium') format('svg');
+  src: url('https://github.com/kraga00/test/raw/master/fonts/BloggerSans-Medium/BloggerSans-Medium.eot') format('embedded-opentype'),  url('https://github.com/kraga00/test/raw/master/fonts/BloggerSans-Medium/BloggerSans-Medium.woff') format('woff'), url('https://github.com/kraga00/test/raw/master/fonts/BloggerSans-Medium/BloggerSans-Medium.ttf')  format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
+
 @font-face {
   font-family: 'BloggerSans-Bold';
-  src: url('./fonts/BloggerSans-Bold/BloggerSans-Bold.eot?#iefix') format('embedded-opentype'),  url('./fonts/BloggerSans-Bold/BloggerSans-Bold.woff') format('woff'), url('./fonts/BloggerSans-Bold/BloggerSans-Bold.ttf')  format('truetype'), url('./fonts/BloggerSans-Bold/BloggerSans-Bold.svg#BloggerSans-Bold') format('svg');
+  src: url('https://github.com/kraga00/test/raw/master/fonts/BloggerSans-Bold/BloggerSans-Bold.eot') format('embedded-opentype'),  url('https://github.com/kraga00/test/raw/master/fonts/BloggerSans-Bold/BloggerSans-Bold.woff') format('woff'), url('https://github.com/kraga00/test/raw/master/fonts/BloggerSans-Bold/BloggerSans-Bold.ttf')  format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -56,7 +57,7 @@ body {
   bottom: 0;
   right: 0;
   content: '';
-  background: url("./img/bg-woman.png") center bottom no-repeat;
+  background: url("https://github.com/kraga00/test/raw/master/img/bg-woman.png") center bottom no-repeat;
 }
 
 /**/
@@ -124,7 +125,7 @@ body {
   font-size: 54px;
   font-family: BloggerSans-Bold, 'sans-serif';
   padding-bottom: 40px;
-  background: url("./img/curve.png") left bottom no-repeat;
+  background: url("https://github.com/kraga00/test/raw/master/img/curve.png") left bottom no-repeat;
 }
 
 .congratulation {
@@ -139,7 +140,7 @@ body {
   bottom: 290px;
   width: 100px;
   height: 12px;
-  background: url("./img/logo.svg") center no-repeat;
+  background: url("https://raw.githubusercontent.com/kraga00/test/31c3c022dc9e3a0ffcb04cc524e08511231b1b2b/img/logo.svg") center no-repeat;
   background-size: cover;
 }
 
